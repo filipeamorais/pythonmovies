@@ -1,6 +1,6 @@
 import psycopg2
 
-url = "postgres://xbsahsxo:q8KLP4sf2WZ6uY7P-zAxSiMnwzFh67FN@kashin.db.elephantsql.com/xbsahsxo"
+#url = "postgres://xbsahsxo:q8KLP4sf2WZ6uY7P-zAxSiMnwzFh67FN@kashin.db.elephantsql.com/xbsahsxo"
 connection = psycopg2.connect(url)
 
 cursor = connection.cursor()
